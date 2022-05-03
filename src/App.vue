@@ -2,15 +2,18 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <MainTitle />
+    <mainParagraph />
   </div>
 </template>
 
 <script>
 import MainTitle from './components/MainTitle.vue'
+import mainParagraph from './components/mainParagraph.vue'
 export default {
   name: 'App',
   components: { 
-    MainTitle
+    MainTitle,
+    mainParagraph
   }
 }
 </script>
